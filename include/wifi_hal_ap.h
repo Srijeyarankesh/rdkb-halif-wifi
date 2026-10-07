@@ -3300,6 +3300,9 @@ typedef struct {
  */
 #define WIFI_BRIDGE_NAME_LEN 32
 
+/* Runtime role of the existing secure 2.4 GHz VAP; no structure/ABI change. */
+#define WIFI_REPURPOSED_PRIVATE_2G_NAME "private_ssid_2g_compat"
+
 /**
  * @brief VAP information structure.
  */
